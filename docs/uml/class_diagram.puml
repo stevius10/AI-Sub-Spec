@@ -1,0 +1,94 @@
+@startuml
+
+class SubContext {
+  +explicit_content: ExplicitContent
+  +implicit_layers: ImplicitLayers
+  +meta_analysis: MetaAnalysis
+  +temporal_aspects: TemporalAspects
+  +relational_dynamics: RelationalDynamics
+  +cognitive_emotional_state: CognitiveEmotionalState
+  +linguistic_patterns: LinguisticPatterns
+  +contextual_influences: ContextualInfluences
+  +inference_engine: InferenceEngine
+  +populate_data()
+  +update_context(new_input)
+  +generate_insights()
+}
+
+class ExplicitContent {
+  +topics: List[str]
+  +stated_facts: Dict[str, str]
+  +direct_questions: List[str]
+  +explicit_opinions: Dict[str, str]
+}
+
+class ImplicitLayers {
+  +subtext: Dict[str, str]
+  +emotional_undertones: List[str]
+  +unstated_assumptions: List[str]
+  +cognitive_biases: List[str]
+}
+
+class MetaAnalysis {
+  +conversation_trajectory: List[str]
+  +depth_of_engagement: float
+  +intellectual_complexity: float
+  +emotional_resonance: float
+}
+
+class TemporalAspects {
+  +conversation_history: List[str]
+  +topic_evolution: Dict[str, str]
+  +emotional_arcs: List[str]
+  +insight_moments: List[str]
+}
+
+class RelationalDynamics {
+  +rapport_level: float
+  +power_dynamics: Dict[str, bool]
+  +mutual_understanding: float
+  +areas_of_alignment: List[str]
+  +points_of_tension: List[str]
+}
+
+class CognitiveEmotionalState {
+  +current_cognitive_load: float
+  +emotional_state: Dict[str, bool]
+  +attention_focus: List[str]
+  +motivation_factors: List[str]
+}
+
+class LinguisticPatterns {
+  +vocabulary_complexity: float
+  +sentence_structures: List[str]
+  +rhetorical_devices: Dict[str, bool]
+  +language_formality: float
+}
+
+class ContextualInfluences {
+  +cultural_background: Dict[str, bool]
+  +professional_context: Dict[str, bool]
+  +personal_history: Dict[str, bool]
+  +current_environment: Dict[str, bool]
+}
+
+class InferenceEngine {
+  +personality_traits: Dict[str, bool]
+  +cognitive_patterns: List[str]
+  +emotional_tendencies: Dict[str, bool]
+  +communication_style: Dict[str, bool]
+  +underlying_motivations: List[str]
+  +potential_biases: List[str]
+}
+
+SubContext "1" *-- "1" ExplicitContent
+SubContext "1" *-- "1" ImplicitLayers
+SubContext "1" *-- "1" MetaAnalysis
+SubContext "1" *-- "1" TemporalAspects
+SubContext "1" *-- "1" RelationalDynamics
+SubContext "1" *-- "1" CognitiveEmotionalState
+SubContext "1" *-- "1" LinguisticPatterns
+SubContext "1" *-- "1" ContextualInfluences
+SubContext "1" *-- "1" InferenceEngine
+
+@enduml
