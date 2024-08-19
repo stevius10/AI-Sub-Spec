@@ -17,39 +17,6 @@ The main class that holds all components of the communication analysis.
 - **`contextual_influences`** (`ContextualInfluences`): Considers external factors affecting communication.
 - **`inference_engine`** (`InferenceEngine`): Generates insights and inferences.
 
-#### Methods:
-
-- **`populate_data()`**
-  - Populates the communication context with initial data.
-  - **Parameters:** None
-  - **Returns:** None
-  - **Usage:**
-    ```python
-    context = SubContext()
-    context.populate_data()
-    ```
-
-- **`update_context(new_input)`**
-  - Updates the communication context based on new input.
-  - **Parameters:**
-    - `new_input` (`Any`): New information to be incorporated into the context.
-  - **Returns:** None
-  - **Usage:**
-    ```python
-    new_data = {"topic": "AI ethics", "sentiment": "concerned"}
-    context.update_context(new_data)
-    ```
-
-- **`generate_insights()`**
-  - Generates insights based on the current state of the communication context.
-  - **Parameters:** None
-  - **Returns:** `Dict[str, Any]` - A dictionary containing derived insights.
-  - **Usage:**
-    ```python
-    insights = context.generate_insights()
-    print(insights)
-    ```
-
 ---
 
 ## ExplicitContent

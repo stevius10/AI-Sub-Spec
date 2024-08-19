@@ -10,9 +10,6 @@ class SubContext {
   +linguistic_patterns: LinguisticPatterns
   +contextual_influences: ContextualInfluences
   +inference_engine: InferenceEngine
-  +populate_data()
-  +update_context(new_input)
-  +generate_insights()
 }
 
 class ExplicitContent {
