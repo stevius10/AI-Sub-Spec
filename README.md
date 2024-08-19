@@ -10,6 +10,10 @@ This project originated from the belief that even the smallest linguistic detail
 
 The impetus for this project was the analysis of high-stakes interpersonal communications, where the goal was to examine not just the factual content, but also the subtle linguistic cues that might reveal insights about underlying decision-making processes and interpersonal dynamics.
 
+## Data Model Process
+
+For insights how the data model was derived through AI interaction, please see [DATA_MODEL_PROCESS.md](DATA_MODEL_PROCESS.md).
+
 ## Scientific Relevance
 
 AI-Sub-Spec aims to create a comprehensive data representation that captures both explicit and implicit aspects of communication. This could be of interest to various research fields:
