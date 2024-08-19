@@ -11,7 +11,7 @@ The project was inspired by a desire to analyze complex interpersonal communicat
 
 ### AI Interaction Process
 - **Duration**: Approximately 8 hours of intensive interaction with Claude 3.5.
-- **Approach**: Engaged in detailed examination of deterministic behavior in human communication, focusing on the intersection of correlation and causality.
+- **Approach**: Engaged in detailed examination of deterministic behavior in human communication; The process involved a deliberate effort to challenge the AI's tendency to rely on probabilistic reasoning by introducing a contradictory and nuanced narrative. By focusing on the inherent contradictions between causality and correlation, I sought to disrupt the AI's default approach and provoke it into developing a data model that captures the complexity of human communication. The resulting model was intended to reflect a communication style that is consciously contradictory and multifaceted, forcing the AI to move beyond simple statistical correlations and instead attempt to represent a personality and communication dynamic that inherently resists straightforward categorization. This approach was aimed at ensuring that the data model would not merely aggregate probabilities but instead depict the nuanced and often contradictory nature of human interaction.
 - **Methodology**: Challenged certain sociological assumptions within the context of meta-communication, aiming to rationalize human behavior through an analytical and, at times, autistic narrative.
 
 ### Key Exploration Areas
